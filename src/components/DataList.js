@@ -4,17 +4,23 @@ import ErrorFallback from './ErrorFallback';
 function DataList() {
   return (
     <>
-      <ErrorBoundary FallbackComponent={ErrorFallback}>
-        <DataItem />
-      </ErrorBoundary>
+      <div>
+        <ErrorBoundary FallbackComponent={ErrorFallback}>
+          <DataItem />
+        </ErrorBoundary>
+      </div>
 
-      <ErrorBoundary FallbackComponent={ErrorFallback}>
-        <DataItem />
-      </ErrorBoundary>
+      <div>
+        <ErrorBoundary FallbackComponent={ErrorFallback}>
+          <DataItem />
+        </ErrorBoundary>
+      </div>
 
-      <ErrorBoundary FallbackComponent={ErrorFallback}>
-        <DataItem />
-      </ErrorBoundary>
+      <div>
+        <ErrorBoundary FallbackComponent={ErrorFallback}>
+          <DataItem />
+        </ErrorBoundary>
+      </div>
     </>
   );
 }
