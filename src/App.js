@@ -1,14 +1,14 @@
-import "./App.css";
-import DataList from "./components/DataList";
-import DataReceiverWithBoundary from "./components/DataReceiverWithBoundary";
+import './App.css';
+import DataList from './components/DataList';
+import DataReceiver from './components/DataReceiver';
 
 function App() {
-  console.log("render");
+  console.log('render');
 
   return (
-    <div className="App">
+    <div className='App'>
       <DataList />
-      <DataReceiverWithBoundary />
+      <DataReceiver />
     </div>
   );
 }

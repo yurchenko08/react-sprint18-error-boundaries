@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  color: #252525;
-  background-color: #252525;
+  color: #413e3e;
+  background-color: #978a8a;
 }
 
 button {
@@ -35,8 +35,6 @@ button:active {
   text-align: center;
   background-color: #f4f0fa;
 }
-
-
 
 .App {
   text-align: center;
